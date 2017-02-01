@@ -14,6 +14,7 @@
 		3C7865241E415E5A00401512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7865221E415E5A00401512 /* LaunchScreen.storyboard */; };
 		3C78652F1E415E5A00401512 /* Algorithms_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78652E1E415E5A00401512 /* Algorithms_SwiftTests.swift */; };
 		3C78653A1E415E5A00401512 /* Algorithms_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7865391E415E5A00401512 /* Algorithms_SwiftUITests.swift */; };
+		3C7865481E41609200401512 /* WeightedQuickUnionUF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7865471E41609200401512 /* WeightedQuickUnionUF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C7865351E415E5A00401512 /* Algorithms.SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Algorithms.SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7865391E415E5A00401512 /* Algorithms_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftUITests.swift; sourceTree = "<group>"; };
 		3C78653B1E415E5A00401512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7865471E41609200401512 /* WeightedQuickUnionUF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedQuickUnionUF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3C7865191E415E5A00401512 /* AppDelegate.swift */,
 				3C78651B1E415E5A00401512 /* ViewController.swift */,
+				3C7865471E41609200401512 /* WeightedQuickUnionUF.swift */,
 				3C78651D1E415E5A00401512 /* Main.storyboard */,
 				3C7865201E415E5A00401512 /* Assets.xcassets */,
 				3C7865221E415E5A00401512 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7865481E41609200401512 /* WeightedQuickUnionUF.swift in Sources */,
 				3C78651C1E415E5A00401512 /* ViewController.swift in Sources */,
 				3C78651A1E415E5A00401512 /* AppDelegate.swift in Sources */,
 			);

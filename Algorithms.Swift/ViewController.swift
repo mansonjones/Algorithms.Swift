@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("hello world")
+        
+        
+        var uf = WeightedQuickUnionUF(N: 10)
+        uf.union(1, q: 2)
+        uf.union(2, q: 3)
+        print(uf.connected(1,q: 3))
+        print(uf.connected(1,q: 4))
     }
 
     override func didReceiveMemoryWarning() {
