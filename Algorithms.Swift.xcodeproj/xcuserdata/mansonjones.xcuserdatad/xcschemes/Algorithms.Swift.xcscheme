@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3C7865151E415E5A00401512"
+               BuildableName = "Algorithms.Swift.app"
+               BlueprintName = "Algorithms.Swift"
+               ReferencedContainer = "container:Algorithms.Swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3C7865291E415E5A00401512"
+               BuildableName = "Algorithms.SwiftTests.xctest"
+               BlueprintName = "Algorithms.SwiftTests"
+               ReferencedContainer = "container:Algorithms.Swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3C7865341E415E5A00401512"
+               BuildableName = "Algorithms.SwiftUITests.xctest"
+               BlueprintName = "Algorithms.SwiftUITests"
+               ReferencedContainer = "container:Algorithms.Swift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3C7865151E415E5A00401512"
+            BuildableName = "Algorithms.Swift.app"
+            BlueprintName = "Algorithms.Swift"
+            ReferencedContainer = "container:Algorithms.Swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3C7865151E415E5A00401512"
+            BuildableName = "Algorithms.Swift.app"
+            BlueprintName = "Algorithms.Swift"
+            ReferencedContainer = "container:Algorithms.Swift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3C7865151E415E5A00401512"
+            BuildableName = "Algorithms.Swift.app"
+            BlueprintName = "Algorithms.Swift"
+            ReferencedContainer = "container:Algorithms.Swift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
